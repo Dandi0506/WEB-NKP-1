@@ -249,6 +249,12 @@ p { margin: 0 0 1em; color: var(--slate); max-width: 62ch; }
   border-radius: var(--radius);
   box-sizing: border-box; /* Memastikan padding tidak menambah lebar */
 }
+.about-media img,
+img {
+  max-width: 100% !important;
+  height: auto;
+  display: block;
+}
 .about-copy h2 { font-size: clamp(24px, 3vw, 32px); max-width: 22ch; }
 .about-values {
   display: grid;
