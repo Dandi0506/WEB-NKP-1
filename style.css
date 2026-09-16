@@ -663,13 +663,13 @@ p { margin: 0 0 1em; color: var(--slate); max-width: 62ch; }
   }
 
   /* FOOTER */
-  .footer-inner {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-  }
-
+.footer-inner {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px; /* Diperkecil dari 20px */
+  padding: 15px 10px; /* Menambah batas ruang yang lebih padat */
+}
   .footer-social {
     justify-content: center;
   }
