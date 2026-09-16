@@ -549,7 +549,7 @@ p { margin: 0 0 1em; color: var(--slate); max-width: 62ch; }
 }
 
 /* HP & Layar Kecil (Maksimal 768px) */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .section {
     padding: 56px 0; /* Kurangi padding section agar tidak terlalu renggang */
   }
