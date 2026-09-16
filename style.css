@@ -678,23 +678,23 @@ p { margin: 0 0 1em; color: var(--slate); max-width: 62ch; }
 /* HP Ukuran Sangat Kecil (Maksimal 480px) */
 @media (max-width: 480px) {
   .brand-name {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .brand-logo {
-    height: 32px;
+    height: 30px;
   }
 
   .brand-tag {
-    font-size: 9px;
+    font-size: 7px;
   }
 
   .hero-title {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .stat-num {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
   .main-nav.open { display: flex; }
